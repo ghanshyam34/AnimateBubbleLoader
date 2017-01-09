@@ -6,6 +6,7 @@ import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.animation.TimeInterpolator;
 import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -28,12 +29,13 @@ import android.view.animation.Animation;
 import android.view.animation.Interpolator;
 import android.widget.ProgressBar;
 
+import com.gs.mydottedloaderlib.R;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import gs.com.mydottedloader.R;
 
 /**
  * Created by Ghanshyam on 12/26/2016.
@@ -68,9 +70,9 @@ public class MyCustomDotedLoader extends ProgressBar {
 
         if (attrs != null) {
 
-            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.mydottedLoader);
-            mColor = typedArray.getInteger(R.styleable.mydottedLoader_dotcolor, Color.RED);
-            dotcount = typedArray.getInteger(R.styleable.mydottedLoader_dotcount,5);
+            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MyCustomDotedLoader);
+            mColor = typedArray.getInteger(R.styleable.MyCustomDotedLoader_dotcolors, Color.RED);
+            dotcount = typedArray.getInteger(R.styleable.MyCustomDotedLoader_dotcounts,5);
             typedArray.recycle();
         }
         CustomDrawable sprite = new Dotview();

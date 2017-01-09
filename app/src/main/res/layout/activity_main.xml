@@ -14,19 +14,14 @@
     <com.gs.mydottedloader.MyCustomDotedLoader
         android:layout_width="100dp"
         android:layout_height="40dp"
-        app:dotcount="5"
-        app:dotcolor="@color/colorAccent"/>
+        app:dotcounts="5"
+        app:dotcolors="@color/colorAccent"/>
 
     <com.gs.mydottedloader.HorizontalDottedProgress
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:dotcount="5"
-        app:dotcolor="@color/colorAccent"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This is Loader to show in the form of dot with blink/bounce animation"/>
+        app:dotcolor="@color/colorAccent" />
 
 </LinearLayout>

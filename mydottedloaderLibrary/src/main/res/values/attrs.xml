@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="mydottedLoader">
+    <declare-styleable name="HorizontalDottedProgress">
         <attr name="dotcount" format="integer" />
         <attr name="dotcolor" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="MyCustomDotedLoader">
+        <attr name="dotcounts" format="integer" />
+        <attr name="dotcolors" format="integer" />
+    </declare-styleable>
+
 </resources>

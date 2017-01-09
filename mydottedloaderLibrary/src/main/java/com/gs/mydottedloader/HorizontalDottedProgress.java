@@ -12,9 +12,10 @@ import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.Transformation;
 
+import com.gs.mydottedloaderlib.R;
+
 import java.util.ArrayList;
 
-import gs.com.mydottedloader.R;
 
 /**
  * Created by Ghanshyam on 12/31/2016.
@@ -48,9 +49,9 @@ public class HorizontalDottedProgress extends View{
 
         if (attrs != null) {
 
-            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.mydottedLoader);
-            color = typedArray.getInteger(R.styleable.mydottedLoader_dotcolor, Color.RED);
-            mDotAmount = typedArray.getInteger(R.styleable.mydottedLoader_dotcount,5);
+            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.HorizontalDottedProgress);
+            color = typedArray.getInteger(R.styleable.HorizontalDottedProgress_dotcolor, Color.RED);
+            mDotAmount = typedArray.getInteger(R.styleable.HorizontalDottedProgress_dotcount,5);
             typedArray.recycle();
         }
 
