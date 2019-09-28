@@ -1,6 +1,8 @@
 # MyDottedLoader
 This is Loader to show in the form of dot with blink/bounce animation
 
+[![](https://jitpack.io/v/ghanshyam34/MyDottedLoader.svg)](https://jitpack.io/#ghanshyam34/MyDottedLoader)
+
 ## License
 [MIT](https://github.com/ghanshyam34/MyDottedLoader/blob/master/LICENSE.MD)
 
