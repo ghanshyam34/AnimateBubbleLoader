@@ -1,9 +1,8 @@
 # MyDottedLoader
 This is Loader to show in the form of dot with blink/bounce animation
 
-[![](https://jitpack.io/v/ghanshyam34/MyDottedLoader.svg)](https://jitpack.io/#ghanshyam34/MyDottedLoader)
-     
-       dependencies {
+
+ dependencies {
 	        implementation 'com.github.ghanshyam34:MyDottedLoader:-SNAPSHOT'
 	   }
      
