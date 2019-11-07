@@ -2,9 +2,9 @@
 This is Loader to show in the form of dot with blink/bounce animation
 
 ```
-      dependencies { 
-	        implementation 'com.github.ghanshyam34:MyDottedLoader:-SNAPSHOT'		
-	   }
+      dependencies {
+	        implementation 'com.github.ghanshyam34:AnimateBubbleLoader:db5b9e5980'
+	}
 ```
      
 
