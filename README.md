@@ -1,4 +1,4 @@
-# MyDottedLoader
+# AnimateBubbleLoader
 This is Loader to show in the form of dot with blink/bounce animation
 
 ```
