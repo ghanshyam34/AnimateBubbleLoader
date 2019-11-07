@@ -2,7 +2,7 @@
 This is Loader to show in the form of dot with blink/bounce animation
 
 ```
- dependencies { 
+      dependencies { 
 	        implementation 'com.github.ghanshyam34:MyDottedLoader:-SNAPSHOT'		
 	   }
 ```
